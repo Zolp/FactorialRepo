@@ -9,6 +9,7 @@ class FactorialTest {
     {
         assertEquals(3628800, FactorialCalculator.factorial(10));
     }
+    @Test
     void factorialFailOn200()
     {
         assertEquals(10, FactorialCalculator.factorial(200));

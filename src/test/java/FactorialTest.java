@@ -12,7 +12,6 @@ class FactorialTest {
     @Test
     void factorialFailOn200()
     {
-        FUCK THIS ASSIGNMENT.
         assertEquals(10, FactorialCalculator.factorial(200));
     }
 }
